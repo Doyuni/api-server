@@ -41,7 +41,7 @@ var connect = mongoose.createConnection('mongodb://admin:linking13579@106.10.43.
 autoIncrement.initialize(connect);
 
 app.get('/', (req,res)=>{
-    res.send("Welcome Linking Service");
+    res.send("Welcome Linking Service!");
 });
 
 app.set('views', path.join(__dirname, 'views'));
